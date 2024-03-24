@@ -9,7 +9,7 @@ const Hero = () => {
         <HeroSection id="Hero">
             <Intro>
                 <p>Hi, my name is</p>
-                <h1>Libenson</h1>
+                <h1>Libenson Nicolas</h1>
                 <p>I'm a full-stack web developer.</p>
             </Intro>
             <img src={require("../assets/portrait.jpg")} alt="Libenson Nicolas"/>

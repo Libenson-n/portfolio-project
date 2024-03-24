@@ -6,7 +6,7 @@ const About = () => {
             <AboutMe>
                 <AboutText>
                     <h2>A little bit about me</h2>
-                    <p>I'm passionate about learning new technologies and </p>
+                    <p>I'm passionate about technology and aquiring new skills.<br></br> I love taking on new challenges.</p>
                 </AboutText>
             </AboutMe>
             <Skills>
@@ -81,10 +81,17 @@ const AboutText = styled.div`
 `
 const Icons = styled.div`
     display: flex;
-    gap: 1.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
     font-size: 4rem;
+    line-height: 0.8em;
+
+    @media (max-width: 40em) {
+        font-size: 2rem;
+    }
 
     p {
-        font-size: 01rem;
+        font-size: 0.9rem;
     }
 `
